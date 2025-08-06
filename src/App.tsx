@@ -19,15 +19,15 @@ function App() {
       <HeroSection />
       <BrandScroller />
       <ExchangePlusSection />
-      <FeaturesSection /> {/* Add the FeaturesSection component here */}
-        <StatisticsSection/>
-        <HowItWorks/>
-        <PopularCryptocurrencies/>
-        <PortfolioSection/>
-        <YourMoneyYourChoice/>
-        <IntegrationFAQ/>
-        <DownloadSection/>
-        <Footer/>
+      <FeaturesSection />
+      <StatisticsSection />
+      <HowItWorks />
+      <PopularCryptocurrencies />
+      <PortfolioSection />
+      <YourMoneyYourChoice />
+      <IntegrationFAQ />
+      <DownloadSection />
+      <Footer />
     </div>
   );
 }

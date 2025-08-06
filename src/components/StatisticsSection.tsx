@@ -68,7 +68,7 @@ const sectionVariants: Variants = {
     y: 0,
     transition: {
       duration: 0.8,
-      ease: "easeOut",
+      ease: "easeOut" as const,
       staggerChildren: 0.15, // Stagger children elements
     },
   },
@@ -76,7 +76,7 @@ const sectionVariants: Variants = {
 
 const itemVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" as const } },
 };
 
 const cardVariants: Variants = {
@@ -87,7 +87,7 @@ const cardVariants: Variants = {
     x: 0,
     transition: {
       duration: 0.7,
-      ease: "easeOut",
+      ease: "easeOut" as const,
     },
   },
 };
